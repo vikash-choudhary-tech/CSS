@@ -1,0 +1,52 @@
+.form-container{
+    display: flex;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.form-header{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.form-group{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.form-group > label{
+    font-weight: 500;
+    margin: 0 10px;
+    width: 20%;
+    font-size: 16px;
+}
+
+.form-group > input{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: lightgray;
+    padding: 10px 10px;
+    width: 80%;
+}
+
+.form-group > .form-group-radio {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group > .checkbox {
+    width: 50%;
+}
+
+.form-group-checkbox {
+  display: flex;
+  gap: 10px;
+}
