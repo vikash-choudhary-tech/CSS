@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.formContainer{
+    border: 1px solid black;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.formHeader{
+    font-weight: 600;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.formGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.formGroup > label{
+    display: flex;
+    margin-left: 10px;
+    font-weight: 500;
+    flex: 1;
+}
+
+.formGroup > input,
+.formGroup > textarea
+{
+    outline: none;
+    background: lightgray;
+    border: none;
+    border-radius: 5px;
+    flex: 4;
+    padding: 10px;
+}
+
+.checkboxItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+}
+
+.checkboxItems > label{
+    display: flex;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.checkboxItems > input{
+    flex: 1;
+}
+
+.formGroupRadio{
+    display: flex;
+    gap: 5px;
+    flex: 4;
+}
+.formGroupCheckbox{
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+    flex: 2 ;
+}
