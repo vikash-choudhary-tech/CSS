@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.container > .tableHeader{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.container > .tableContainer{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.tableContainer td,
+.tableContainer th {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.tableContainer th{
+    background-color: green;
+    color: white;
+}
+
+.tableContainer tr:nth-child(odd){
+    background: lightgreen;
+}
+
+.tableContainer tr:nth-child(even){
+    background: lightpink;
+}
+
