@@ -19,6 +19,7 @@ return(
                 <th>Gender</th>
                 <th>Nationality</th>
                 <th>Language</th>
+                <th>Image</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,12 +30,13 @@ return(
                         <td>{item.gender}</td>
                         <td>{item.nationality}</td>
                         <td>{item.language}</td>
+                        <td className={styles.imgItem}><img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/sheep-3.jpg" alt="test-image" className={styles.image}/></td>
                     </tr>
 
                 ))}
             
             </tbody>
-        </table>
+        </table>    
     </div>
 </>)
 }

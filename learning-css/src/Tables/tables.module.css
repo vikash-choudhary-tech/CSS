@@ -30,6 +30,14 @@
     color: white;
 }
 
+.tableContainer td img{
+    max-width: 100%;
+}
+
+.imgItem{
+    width: 250px;
+}
+
 .tableContainer tr:nth-child(odd){
     background: lightgreen;
 }
@@ -37,4 +45,3 @@
 .tableContainer tr:nth-child(even){
     background: lightpink;
 }
-
