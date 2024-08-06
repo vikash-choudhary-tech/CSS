@@ -5,6 +5,8 @@ Requirements:
 Use media queries to detect screen size changes.
 Implement a CSS-only hamburger menu.
 Ensure the navigation bar is accessible.
+
+
 CSS Grid Layout Challenge
 
 Problem: Design a complex grid layout that mimics a magazine page layout with a header, footer, main content, and sidebar. The sidebar should span multiple rows.
