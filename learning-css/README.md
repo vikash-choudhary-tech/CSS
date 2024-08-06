@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+Responsive Design Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Problem: Create a responsive navigation bar that changes its layout based on screen size. On larger screens, display the menu items horizontally. On smaller screens, use a hamburger menu that expands to show the menu items vertically.
+Requirements:
+Use media queries to detect screen size changes.
+Implement a CSS-only hamburger menu.
+Ensure the navigation bar is accessible.
+CSS Grid Layout Challenge
 
-## Available Scripts
+Problem: Design a complex grid layout that mimics a magazine page layout with a header, footer, main content, and sidebar. The sidebar should span multiple rows.
+Requirements:
+Use CSS Grid to create the layout.
+Make the layout responsive with media queries.
+Ensure the main content area expands to fill available space.
+CSS Animation Challenge
 
-In the project directory, you can run:
+Problem: Create an animated loading spinner using only CSS. The spinner should consist of multiple bars or dots that animate in a circular motion.
+Requirements:
+Use keyframes to create the animation.
+Ensure the animation is smooth and continuous.
+Make the spinner customizable (e.g., size, color).
+CSS Flexbox Challenge
 
-### `npm start`
+Problem: Build a flexible photo gallery using CSS Flexbox. The gallery should display photos in rows with equal spacing and should wrap to the next line when the row is full.
+Requirements:
+Use Flexbox to create the gallery layout.
+Make the gallery responsive.
+Include hover effects on photos.
+CSS Shapes Challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Problem: Create a profile card with a circular profile picture, a name, and a description. The profile picture should overlap the card slightly and have a border.
+Requirements:
+Use CSS Shapes to create the circular profile picture.
+Position the profile picture to overlap the card.
+Style the card with shadows and borders.
+Custom Checkbox and Radio Buttons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Problem: Design custom checkboxes and radio buttons that have a unique appearance. Ensure they are accessible and work correctly when selected or deselected.
+Requirements:
+Use pseudo-elements (::before, ::after) to style the checkboxes and radio buttons.
+Implement different styles for checked and unchecked states.
+Ensure the custom elements are keyboard accessible.
+CSS Parallax Scrolling
 
-### `npm test`
+Problem: Create a parallax scrolling effect where background images move at different speeds compared to the foreground content.
+Requirements:
+Use CSS to implement the parallax effect.
+Ensure the effect is smooth and doesn't affect performance.
+Make the parallax sections responsive.
+CSS Dropdown Menu
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Problem: Design a multi-level dropdown menu that appears on hover. The submenu should slide in from the left or right and should be accessible with keyboard navigation.
+Requirements:
+Use CSS to create the dropdown and submenu.
+Implement transitions for the sliding effect.
+Ensure the menu is fully accessible.
+CSS Tooltip
 
-### `npm run build`
+Problem: Create a tooltip component that appears when hovering over an element. The tooltip should have a smooth fade-in effect and should be positioned correctly relative to the element.
+Requirements:
+Use CSS to create the tooltip and the fade-in effect.
+Position the tooltip above, below, or to the sides of the element based on available space.
+Make the tooltip accessible for screen readers.
+CSS Image Slider
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Problem: Create an image slider/carousel using only CSS. The slider should automatically transition between images and include navigation buttons for manual control.
+Requirements:
+Use CSS keyframes and animations for the sliding effect.
+Include next and previous buttons for manual navigation.
+Ensure the slider is responsive and works on all screen sizes.
