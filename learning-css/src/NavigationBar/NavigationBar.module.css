@@ -1,59 +1,64 @@
-.navHeader{
-    display: flex;
-    position: fixed;
-    height: 60px;
-    background-color: black;
-    border: 1px solid black;
-    width: 100%;
-}
-.hamburger{
+.navbarToggle {
     display: none;
 }
 
-.navHeader > ul {
-    width: 100%;
+.navbar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 16px;
 }
 
-.navHeader > ul li {
-    color: white;
+.navBrand {
+    display: flex;
+    font-size: 26px;
+    flex: 2;
+    margin: 0 20px;
+}
+
+.navbarMenu {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.navbarMenu > li{
     list-style: none;
-}   
+    cursor: pointer;
+    margin: 0 20px;
+}
 
-
-@media(max-width: 700px){
-    .hamburger{
-        display: flex;
+@media(max-width : 800px){
+    .navbar{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 5px;
-        border: 1px solid black;
-        box-shadow: 1px solid gray;
+        width: 100px;
+        height: 100vh;
     }
+    .navBrand{
+        display: none;
+    }
+    .navbarMenu{
+        flex-direction: column;
+        padding: 0;
+        justify-content: space-around;
+      }
 
-    .hamburgerToggle{
+    .navbarToggle {
         display: flex;
         flex-direction: column;
         cursor: pointer;
-        background-color: red;
-    }
-
-    .navHeader{
-        height: 100%;
-        position: fixed;
-        left: 0;
-        width: 60px;
-        justify-content: flex-end;
-    }
-
-
-    .navHeader > ul{ 
-        flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
     }
- 
+
+    .navbarToggle .bar{
+        width: 20px;
+        color: white;
+        border: 1px solid #fff;
+        padding: 3px;
+    }
+
+    .hidden{
+        display: none;
+    }
 }

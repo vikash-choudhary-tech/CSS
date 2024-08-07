@@ -13,29 +13,23 @@ const NavigationBar = () => {
 
     return(
         <>
-           
-            <div className={styles.navHeader}>
-                <ul>
-                <li className={dynamicStyle?styles.hamburgerToggle:styles.hamburger} onClick={toggleNav}>
-                            <span>----</span>
-                </li>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        About
-                    </li>
-                    <li>
-                        Contacts
-                    </li>
-                    <li>
-                        Sign Up
-                    </li>
-                    <li>
-                        Login
-                    </li>
-                </ul>
+
+        <nav className={styles.navbar}>
+            <div className={styles.navBrand}>LEARN CSS</div>
+            <div className={styles.navbarToggle} onClick={toggleNav}>
+                <div className={styles.bar}></div>
+                <div className={styles.bar}></div>
+                <div className={styles.bar}></div>
             </div>
+
+            <ul className={`${styles.navbarMenu} ${dynamicStyle && styles.hidden}`}>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Address</li>
+                <li>Login</li>
+            </ul>
+
+        </nav>
         </>
     )
 }
