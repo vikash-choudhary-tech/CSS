@@ -29,6 +29,7 @@
     margin: 0 20px;
 }
 
+
 @media(max-width : 800px){
     .navbar{
         flex-direction: column;
@@ -60,5 +61,8 @@
 
     .hidden{
         display: none;
+    }
+    .navbar.close{
+        height: 5vh;
     }
 }

@@ -7,16 +7,16 @@ const NavigationBar = () => {
 
     function toggleNav(){
         //Toggle the nav bar based on a state
-        console.log("check")
+        console.log("check");   
         setDynamicStyle(!dynamicStyle);
     }
 
     return(
         <>
 
-        <nav className={styles.navbar}>
+        <nav className={`${styles.navbar} ${dynamicStyle? `${styles.close}`: ''}`}>
             <div className={styles.navBrand}>LEARN CSS</div>
-            <div className={styles.navbarToggle} onClick={toggleNav}>
+            <div className={`${styles.navbarToggle}`} onClick={toggleNav}>
                 <div className={styles.bar}></div>
                 <div className={styles.bar}></div>
                 <div className={styles.bar}></div>
