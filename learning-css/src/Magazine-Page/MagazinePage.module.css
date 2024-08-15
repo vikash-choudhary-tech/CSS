@@ -1,0 +1,34 @@
+.magazineContainer{
+    display: grid;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.header{
+     display: grid;
+     justify-items: center;
+     border: 1px solid black;
+     margin: 5px;
+     padding: 10px;
+}
+
+.main{
+    display: grid;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sideBar{
+    display: grid;
+    grid-column: 1;
+    border: 1px solid black;
+}
+
+.mainContent{
+    display: grid;
+    grid-column: 3;
+    border: 1px solid black;
+    margin: 0 5px;
+}
