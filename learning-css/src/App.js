@@ -7,7 +7,8 @@ import Table from "./Tables/tables";
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
+      {/* Challenge 1 Done Responsive Nav Bar */}
+      <NavigationBar />  
       {/* <Forms />
       <FlexForm /> */}
       {/* <Table /> */}
