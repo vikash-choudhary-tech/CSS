@@ -1,0 +1,17 @@
+
+table{
+    margin: 0 auto;
+    width: 800px;
+}
+th {
+    background-color: green;
+}
+
+th, td {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
