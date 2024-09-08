@@ -1,0 +1,23 @@
+.transform-block{
+    border: 1px solid black;
+    /* height: 100vh; */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.box:hover{
+    transform: rotate(180deg);
+}
