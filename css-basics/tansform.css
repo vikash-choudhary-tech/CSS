@@ -19,5 +19,7 @@
 }
 
 .box:hover{
-    transform: rotate(180deg);
+    transform: scale(2);
+    /* transform: skew(180deg); */
+    /* transform: rotate(180deg); */
 }
