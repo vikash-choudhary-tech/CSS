@@ -1,0 +1,13 @@
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-box > div {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
