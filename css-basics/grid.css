@@ -6,9 +6,11 @@
    'side-menu menu menu menu'
    '. menu menu menu'
    'footer footer footer footer';
-
+/* 
    grid-template-rows: 1fr 2fr 3fr 4fr;
-   grid-template-columns: 1fr 2fr 3fr;
+   grid-template-columns: 1fr 2fr 3fr; */
+   grid-auto-rows: 1fr 2fr;
+   grid-auto-columns: 1fr 2fr;
 
 }
 
